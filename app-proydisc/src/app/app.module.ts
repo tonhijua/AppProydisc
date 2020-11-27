@@ -11,6 +11,10 @@ import { HeaderComponent } from './pages/header/header.component';
 import { RouterModule } from '@angular/router';
 import { BodyComponent } from './pages/body/body.component';
 import { AppRoutingModule } from './app-routing.module';
+import {MatCardModule} from '@angular/material/card';
+import {MatMenuModule} from '@angular/material/menu';
+import {IvyCarouselModule} from 'angular-responsive-carousel';
+
 
 
 @NgModule({
@@ -28,7 +32,10 @@ import { AppRoutingModule } from './app-routing.module';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    RouterModule
+    RouterModule,
+    MatCardModule,
+    MatMenuModule,
+    IvyCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]
